@@ -89,6 +89,8 @@
   var swiper = new Swiper('.swiper-container', {
       direction : 'vertical',
       effect : 'fade',
+      mousewheel: true,
+      autoplay:true,
       on:{
       init: function(){
         swiperAnimateCache(this); //隐藏动画元素 
